@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <h1>Tic-Tac-Toe</h1>
+    <p id="victoryDraw"></p>
+    <div class="grid-container">
+      <p id="isTurn"></p>
+      <button class="btn btn-success" type="button" id="refresh" onclick="refreshPage();"><i class="las la-redo-alt" style="font-size:24px"></i></button>
+      <div class="button-wrap">
+        <button class="ui-shadow ui-btn ui-corner-all" id="cell1" onclick="selectCell('cell1');"></button>
+        <button class="ui-shadow ui-btn ui-corner-all" id="cell2" onclick="selectCell('cell2');"></button>
+        <button class="ui-shadow ui-btn ui-corner-all" id="cell3" onclick="selectCell('cell3');"></button>
+        <button class="ui-shadow ui-btn ui-corner-all" id="cell4" onclick="selectCell('cell4');"></button>
+        <button class="ui-shadow ui-btn ui-corner-all" id="cell5" onclick="selectCell('cell5');"></button>
+        <button class="ui-shadow ui-btn ui-corner-all" id="cell6" onclick="selectCell('cell6');"></button>
+        <button class="ui-shadow ui-btn ui-corner-all" id="cell7" onclick="selectCell('cell7');"></button>
+        <button class="ui-shadow ui-btn ui-corner-all" id="cell8" onclick="selectCell('cell8');"></button>
+        <button class="ui-shadow ui-btn ui-corner-all" id="cell9" onclick="selectCell('cell9');"></button>
+      </div>
+    </div>
+
+    <!-- JQuery and Bootstrap Bundle with Popper -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- JScript -->
+    <script src="script.js"></script>
+
+   
+  </body>
+</html>
